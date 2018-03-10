@@ -27,7 +27,6 @@ public class FileAccessOperation implements FileAccess {
 			properties.load(input);
 			input.close();
 		} catch (IOException ex) {
-			//TODO treatment exception
 		}
 	}
 	
@@ -44,7 +43,6 @@ public class FileAccessOperation implements FileAccess {
 		try {
 			return Files.readAllBytes(Paths.get(fillPathName(fileVO)));
 		} catch (IOException e) {
-			//TODO treatment of exception
 		}
 		return null;
 	}

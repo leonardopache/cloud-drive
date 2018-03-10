@@ -22,7 +22,7 @@ public class FileAccessTest {
 		fileVO.setPath("/");
 		fileVO.setName("NEWCLOUDDRIVEFILE.TXT");
 		fileOperation.remove(fileVO);
-		// TODO na inicializacao do metodo mapear uma nova pasta dentro de
+		// na inicializacao do metodo mapear uma nova pasta dentro de
 		// src/test/resource com um arquivo inicial
 		
 		fileVO = new FileVO();
